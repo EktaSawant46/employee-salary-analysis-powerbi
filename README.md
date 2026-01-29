@@ -1,163 +1,159 @@
-💼 Employee Salary Analysis – Data Cleaning, Analysis & Dashboard
+# 💼 Employee Salary Analysis
 
-Python · Pandas · Power BI · Data Visualization
+**Python · Pandas · Power BI · Data Visualization**
 
-📘 Project Overview
+---
 
-This project performs end-to-end employee salary analysis using Python for data cleaning & analysis and Power BI for interactive dashboard visualization.
+## 📘 Project Overview
 
-🔍 Key Focus Areas:
+This project performs an **end-to-end employee salary analysis** using **Python (Pandas)** for data cleaning and exploratory analysis, followed by **Power BI** for interactive dashboard visualization.
 
-Job title–wise salary distribution
+The goal is to uncover salary trends, overtime impact, and high-earning roles through a clean analytics workflow.
 
-Year-wise salary trends
+---
 
-Overtime pay impact on total compensation
+## 🔍 Key Focus Areas
 
-Identification of high-earning roles and outliers
+* Job title–wise salary distribution
+* Year-wise salary trends
+* Impact of overtime pay on total compensation
+* Identification of high-earning roles and outliers
 
-📁 Project Structure
+---
+
+## 📁 Project Structure
+
+```text
 Employee-Salary-Analysis/
 │
-├── salaries.csv                         → Raw employee salary dataset
-├── employee_salary_analysis.ipynb       → Data cleaning & EDA (Pandas)
-├── cleaned_salary_data.csv              → Cleaned dataset for Power BI
-├── employee_salary_dashboard.pbix       → Power BI interactive dashboard
-│
-└── README.md                            → Project documentation
+├── Salaries.csv                         # Raw employee salary dataset
+├── code.ipynb       # Data cleaning & EDA (Pandas)
+├── analysed_Data.csv              # Cleaned dataset for Power BI
+├── EMPLOYEE DASHBOARD.pbix       # Power BI interactive dashboard
+└── README.md                            # Project documentation
+```
 
-🧹 Data Cleaning & Preparation (Python – Pandas)
+---
 
-File: employee_salary_analysis.ipynb
+## 🧹 Data Cleaning & Preparation (Python – Pandas)
 
-✔️ Steps Performed:
+**File:** `employee_salary_analysis.ipynb`
 
-Loaded and inspected raw salary data
+### ✔️ Steps Performed
 
-Handled missing & inconsistent values
+* Loaded and inspected raw salary data
+* Handled missing and inconsistent values
+* Converted salary columns to numeric format
+* Created derived metrics:
 
-Converted salary columns to numeric format
+  * Total Pay
+  * Total Pay Benefits
+* Filtered top job roles based on compensation
+* Exported a clean dataset for visualization
 
-Created derived metrics:
+📌 *The cleaned dataset is optimized for BI-level analysis.*
 
-Total Pay
+---
 
-Total Pay Benefits
+## 📊 Interactive Dashboard (Power BI)
 
-Filtered top job roles based on compensation
+**File:** `employee_salary_dashboard.pbix`
 
-Exported clean dataset for visualization
+### 📌 Dashboard Features
 
-📌 The cleaned dataset is ready for BI-level analysis.
+* 🗓️ **Year Slicer** (2011–2014)
+* 📈 **Job Title–wise Total Base Pay per Year**
+* 📊 **Total Salary by Year**
+* 🔵 **Scatter Plot:** Overtime Pay vs Total Compensation
+* 📌 **KPI Cards:**
 
-📊 Interactive Dashboard (Power BI)
+  * 💰 Total Base Pay
+  * ⏱️ Total Overtime Pay
+  * 🎁 Total Pay Benefits
+  * 🧾 Total Pay
 
-File: employee_salary_dashboard.pbix
+---
 
-📌 Dashboard Highlights:
+## 📉 Scatter Plot Insight
 
-🗓️ Year Slicer (2011–2014)
+### Relationship Between Overtime Pay and Total Compensation
 
-📈 Job Title–wise Total Base Pay per Year
+This visualization helps to:
 
-📊 Total Salary by Year
+* Identify employees with unusually high overtime
+* Detect compensation outliers
+* Understand how overtime contributes to overall earnings
 
-🔵 Scatter Plot:
+---
 
-Relationship Between Overtime Pay and Total Compensation
+## 🛠️ Tech Stack
 
-📌 KPI Cards:
+### 🔹 Languages & Libraries
 
-💰 Total Base Pay
+* 🐍 Python
+* 🧮 Pandas
+* 📓 Jupyter Notebook
 
-⏱️ Total Overtime Pay
+### 🔹 Visualization Tools
 
-🎁 Total Pay Benefits
+* 📊 Power BI
+* 🔄 Power Query
 
-🧾 Total Pay
+---
 
-📉 Scatter Plot Insight
+## 🚀 How to Run the Project
 
-📍 Relationship Between Overtime Pay and Total Compensation
+### 1️⃣ Python Analysis
 
-This visualization helps:
-
-Identify employees with unusually high overtime
-
-Detect compensation outliers
-
-Understand overtime contribution to overall earnings
-
-🛠️ Tech Stack
-🔹 Languages & Libraries
-
-🐍 Python
-
-🧮 Pandas
-
-📓 Jupyter Notebook
-
-🔹 Visualization Tool
-
-📊 Power BI
-
-🔄 Power Query
-
-🚀 How to Run the Project
-1️⃣ Python Analysis
+```bash
 pip install pandas numpy
+```
 
+Open `employee_salary_analysis.ipynb` and run all cells to generate the cleaned dataset.
 
-Open:
+### 2️⃣ Power BI Dashboard
 
-employee_salary_analysis.ipynb
+* Open `employee_salary_dashboard.pbix` in **Power BI Desktop**
+* Load `cleaned_salary_data.csv` if prompted
+* Use slicers and filters to explore insights
 
+---
 
-Run all cells to generate the cleaned dataset.
+## 🧠 Key Insights
 
-2️⃣ Power BI Dashboard
+* 📈 Total salary expenditure increased steadily over the years
+* 🧑‍💼 Certain job roles dominate total base pay
+* ⏱️ Overtime pay is concentrated among a limited set of employees
+* ⚠️ High overtime does not always imply highest total compensation
+* 📊 Salary patterns vary significantly across job titles
 
-Open employee_salary_dashboard.pbix in Power BI Desktop
+---
 
-Load cleaned_salary_data.csv if prompted
+## 🎯 Learning Outcomes
 
-Use slicers and filters to explore insights
+* ✅ Real-world data cleaning using Pandas
+* ✅ Designing professional Power BI dashboards
+* ✅ Creating KPI cards and analytical visuals
+* ✅ Using scatter plots for outlier detection
+* ✅ End-to-end analytics workflow (Python ➝ Power BI)
 
-🧠 Key Insights Discovered
+---
 
-📈 Total salary expenditure increased steadily over the years
+## 📌 Project Status
 
-🧑‍💼 Certain job roles dominate total base pay
+* ✔️ Completed
+* ✔️ Portfolio Ready
+* ✔️ Resume Worthy
 
-⏱️ Overtime pay is concentrated among a limited set of employees
+---
 
-⚠️ High overtime does not always mean highest total compensation
-
-📊 Salary patterns vary significantly across job titles
-
-🎯 Learning Outcomes
-
-✅ Real-world data cleaning using Pandas
-
-✅ Designing professional Power BI dashboards
-
-✅ Creating KPI cards and analytical visuals
-
-✅ Using scatter plots for outlier detection
-
-✅ End-to-end analytics workflow (Python ➝ Power BI)
-
-📌 Project Status
-
-✔️ Completed
-✔️ Portfolio Ready
-✔️ Resume Worthy
-
-⭐ Support
+## ⭐ Support
 
 If you found this project helpful, consider giving the repository a ⭐ on GitHub!
 
-✍️ Author
+---
 
-Ekta Sawant
+## ✍️ Author
+
+**Ekta Sawant**
 📊 Data Analyst | 🐍 Python | 📈 Power BI
