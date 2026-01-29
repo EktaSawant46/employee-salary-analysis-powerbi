@@ -57,7 +57,8 @@ Employee-Salary-Analysis/
 
 ## 📊 Interactive Dashboard (Power BI)
 
-**File:** `employee_salary_dashboard.pbix`
+<img width="1311" height="740" alt="image" src="https://github.com/user-attachments/assets/39ccc22f-65b6-4540-9e74-a7262c48c539" />
+
 
 ### 📌 Dashboard Features
 
